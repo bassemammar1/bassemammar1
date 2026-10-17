@@ -1,16 +1,25 @@
-## Hi there 👋
+# Hi, I'm Bassem 👋
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=24&color=36BCF7&lines=Full-stack+Developer;AI+Learning+Platform+Builder;Open+to+Collaboration)](https://git.io/typing-svg)
 
-<!--
-**bassemammar1/bassemammar1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🚀 About Me
+- 🌱 Building an educational web platform with AI modules that teach students how to think.
+- 💻 Skilled in React, Node.js, PostgreSQL, and C programming.
+- 📚 Interested in operating systems, networks, and data structures.
+- 🎯 Goal: Create clean, reliable software and share knowledge through open source.
 
-Here are some ideas to get you started:
+## 📂 Featured Projects
+- [AI Learning Module](https://github.com/USERNAME/ai-learning) — Interactive prompts that teach critical thinking.
+- [Lovable Web App](https://github.com/USERNAME/lovable) — Clean UI coffee shop landing page.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Tech Stack
+![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?logo=javascript)
+![React](https://img.shields.io/badge/-React-blue?logo=react)
+![Node.js](https://img.shields.io/badge/-Node.js-green?logo=node.js)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-blue?logo=postgresql)
+
+## 📊 GitHub Stats
+![Bassem's GitHub stats](https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=radical)
+
+## 📫 Connect
+- Email: bassem@example.com
+- LinkedIn: [linkedin.com/in/bassem](https://linkedin.com/in/bassem)
