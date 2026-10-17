@@ -29,4 +29,4 @@
 
 ## 📫 Connect
 - Email: bassemammar.contact@gmail.com
-- LinkedIn: (www.linkedin.com/in/bassem-ammar111)
+- LinkedIn: www.linkedin.com/in/bassem-ammar111
