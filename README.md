@@ -4,9 +4,9 @@
 
 <br>
 
-<a href="mailto:bassemammar.contact@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_touch-1f6feb?style=for-the-badge&labelColor=161b22" alt="Email"></a>
-<a href="https://www.linkedin.com/in/bassem-ammar111"><img src="https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&labelColor=161b22" alt="LinkedIn"></a>
-<a href="https://github.com/bassemammar1"><img src="https://img.shields.io/badge/GitHub-bassemammar1-30363d?style=for-the-badge&labelColor=161b22" alt="GitHub"></a>
+<a href="mailto:bassemammar.contact@gmail.com"><img src="assets/icon-email.svg" alt="Email" width="60"></a>&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/bassem-ammar111"><img src="assets/icon-linkedin.svg" alt="LinkedIn" width="60"></a>&nbsp;&nbsp;
+<a href="https://github.com/bassemammar1"><img src="assets/icon-github.svg" alt="GitHub" width="60"></a>
 
 <br>
 
@@ -43,7 +43,7 @@ I am a **full-stack engineer and product strategist** who turns ideas into clean
 
 ## 🛠️ Tech Stack
 
-<img src="assets/tech-stack.svg" alt="Tech stack. Languages and web: JavaScript, TypeScript, PHP, HTML5, CSS. Frameworks and runtime: Next.js, React, Angular, Laravel, Node.js, Express. Mobile: Flutter, React Native. Data and real-time: MySQL, Firebase. Cloud and delivery: AWS, Cloudflare, Git, GitHub, CI/CD." width="100%">
+<img src="assets/tech-stack.svg" alt="Tech stack. Languages and web: JavaScript, TypeScript, PHP, HTML5, CSS. Frameworks and runtime: Next.js, React, Angular, Laravel, Node.js, Express. Mobile: Flutter, React Native. Data and real-time: MySQL, PostgreSQL, MongoDB, Supabase, Firebase. Cloud and delivery: AWS, Cloudflare, Git, GitHub, CI/CD." width="100%">
 
 <br>
 

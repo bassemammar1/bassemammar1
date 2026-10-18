@@ -26,8 +26,6 @@
     <text x="720.0" y="112" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="48" font-weight="800" fill="url(#t)">Let's build something great together</text>
     <text x="720.0" y="158" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="21" fill="#bcc5cf" textLength="620" lengthAdjust="spacingAndGlyphs">clean code · reliable systems · shared knowledge</text>
     <text class="rocket" x="1250" y="130" font-size="62">🚀</text>
-    <g class="wv2"><path d="M0,206 Q180.0,190 360,206 T720,206 T1080,206 T1440,206 T1800,206 T2160,206 T2520,206 T2880,206 V260 H0 Z" fill="url(#w2)"/></g>
-    <g class="wv1"><path d="M0,220 Q180.0,200 360,220 T720,220 T1080,220 T1440,220 T1800,220 T2160,220 T2520,220 T2880,220 V260 H0 Z" fill="url(#w1)"/></g>
   </g>
   <rect x=".5" y=".5" width="1439" height="259" rx="28" fill="none" stroke="#ffffff" stroke-opacity=".10"/>
 </svg>
