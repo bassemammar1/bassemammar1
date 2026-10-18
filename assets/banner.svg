@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 400" width="1440" height="400" role="img" aria-label="Bassem Ammar, Full-Stack Engineer">
+  <title>Bassem Ammar — Full-Stack Engineer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/><stop offset=".55" stop-color="#101a30"/><stop offset="1" stop-color="#1a1633"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" gradientUnits="userSpaceOnUse" spreadMethod="repeat" x1="250" y1="0" x2="1250" y2="0">
+      <stop offset="0" stop-color="#79c0ff"/><stop offset=".35" stop-color="#bc8cff"/><stop offset=".7" stop-color="#39c5cf"/><stop offset="1" stop-color="#79c0ff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1000 0" to="0 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#79c0ff"/><stop offset=".5" stop-color="#8957e5"/><stop offset="1" stop-color="#39c5cf"/>
+    </linearGradient>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#79c0ff" stop-opacity=".20"/><stop offset="1" stop-color="#8957e5" stop-opacity=".20"/></linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8957e5" stop-opacity=".20"/><stop offset="1" stop-color="#39c5cf" stop-opacity=".20"/></linearGradient>
+    <linearGradient id="w3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#39c5cf" stop-opacity=".16"/><stop offset="1" stop-color="#79c0ff" stop-opacity=".16"/></linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#bcc5cf" fill-opacity=".16"/></pattern>
+    <clipPath id="card"><rect width="1440" height="400" rx="28"/></clipPath>
+    <clipPath id="clip0"><rect x="292" y="228" height="48" width="0">
+      <animate attributeName="width" dur="14.0s" repeatCount="indefinite" values="0;364.8;364.8;0;0" keyTimes="0.0000;0.0786;0.2143;0.2250;1.0000"/>
+    </rect></clipPath>
+    <clipPath id="clip1"><rect x="292" y="228" height="48" width="0">
+      <animate attributeName="width" dur="14.0s" repeatCount="indefinite" values="0;0;710.4;710.4;0;0" keyTimes="0.0000;0.2500;0.3286;0.4643;0.4750;1.0000"/>
+    </rect></clipPath>
+    <clipPath id="clip2"><rect x="292" y="228" height="48" width="0">
+      <animate attributeName="width" dur="14.0s" repeatCount="indefinite" values="0;0;672.0;672.0;0;0" keyTimes="0.0000;0.5000;0.5786;0.7143;0.7250;1.0000"/>
+    </rect></clipPath>
+    <clipPath id="clip3"><rect x="292" y="228" height="48" width="0">
+      <animate attributeName="width" dur="14.0s" repeatCount="indefinite" values="0;0;403.2;403.2;0;0" keyTimes="0.0000;0.7500;0.8286;0.9643;0.9750;1.0000"/>
+    </rect></clipPath>
+  </defs>
+  <style>
+    .blob{animation:drift 14s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+    .b2{animation-duration:18s;animation-delay:-6s} .b3{animation-duration:11s;animation-delay:-3s}
+    @keyframes drift{0%{transform:translate(-60px,-20px) scale(.9)}100%{transform:translate(80px,30px) scale(1.15)}}
+    .rise{animation:rise 11s linear infinite;opacity:0}
+    @keyframes rise{0%{transform:translateY(0);opacity:0}15%{opacity:.26}80%{opacity:.14}100%{transform:translateY(-310px);opacity:0}}
+    .wv1{animation:slide 16s linear infinite} .wv2{animation:slide 11s linear infinite} .wv3{animation:slide 22s linear infinite reverse}
+    @keyframes slide{from{transform:translateX(0)}to{transform:translateX(-1440px)}}
+    .pill{opacity:0;animation:pop .6s cubic-bezier(.2,.9,.3,1.3) forwards}
+    @keyframes pop{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+    .bob{animation:bob 3.2s ease-in-out infinite}
+    @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+    .wave{transform-box:fill-box;transform-origin:70% 70%;animation:wave 2.4s ease-in-out infinite}
+    @keyframes wave{0%,60%,100%{transform:rotate(0)}10%,30%{transform:rotate(16deg)}20%,40%{transform:rotate(-10deg)}50%{transform:rotate(10deg)}}
+    .spin{transform-box:fill-box;transform-origin:center;animation:spin 9s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .blink{animation:blink 1s steps(1) infinite}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+    .fadein{opacity:0;animation:fadein 1.1s ease-out .15s forwards}
+    @keyframes fadein{from{opacity:0;transform:translateX(-24px)}to{opacity:1;transform:translateX(0)}}
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1440" height="400" fill="url(#bg)"/>
+    <rect width="1440" height="400" fill="url(#dots)"/>
+    <circle class="blob" cx="260" cy="130" r="170" fill="#79c0ff" fill-opacity=".38" filter="url(#blur)"/>
+    <circle class="blob b2" cx="1120" cy="250" r="190" fill="#8957e5" fill-opacity=".42" filter="url(#blur)"/>
+    <circle class="blob b3" cx="720" cy="40" r="130" fill="#39c5cf" fill-opacity=".26" filter="url(#blur)"/>
+
+    <text class="rise" x="40" y="380" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="20" fill="#79c0ff" style="animation-duration:9s;animation-delay:-0.0s">&lt;/&gt;</text><text class="rise" x="145" y="380" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="24" fill="#8957e5" style="animation-duration:10s;animation-delay:-3.7s">{ }</text><text class="rise" x="250" y="380" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="28" fill="#39c5cf" style="animation-duration:11s;animation-delay:-7.4s">API</text><text class="rise" x="304" y="380" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="32" fill="#79c0ff" style="animation-duration:12s;animation-delay:-11.1s">AI</text><text class="rise" x="409" y="380" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="20" fill="#8957e5" style="animation-duration:13s;animation-delay:-1.8s">SQL</text><text class="rise" x="514" y="380" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="24" fill="#39c5cf" style="animation-duration:14s;animation-delay:-4.5s">=&gt;</text><text class="rise" x="568" y="380" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="28" fill="#79c0ff" style="animation-duration:9s;animation-delay:-4.2s">$_</text><text class="rise" x="673" y="380" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="32" fill="#8957e5" style="animation-duration:10s;animation-delay:-5.9s">01</text><text class="rise" x="778" y="380" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="20" fill="#39c5cf" style="animation-duration:11s;animation-delay:-7.6s">git</text><text class="rise" x="832" y="380" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="24" fill="#79c0ff" style="animation-duration:12s;animation-delay:-9.3s">JSON</text><text class="rise" x="937" y="380" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="28" fill="#8957e5" style="animation-duration:13s;animation-delay:-11.0s">404</text><text class="rise" x="1042" y="380" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="32" fill="#39c5cf" style="animation-duration:14s;animation-delay:-12.7s">PHP</text><text class="rise" x="1096" y="380" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="20" fill="#79c0ff" style="animation-duration:9s;animation-delay:-8.4s">JS</text><text class="rise" x="1201" y="380" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="24" fill="#8957e5" style="animation-duration:10s;animation-delay:-8.1s">&lt;div&gt;</text><text class="rise" x="1306" y="380" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="28" fill="#39c5cf" style="animation-duration:11s;animation-delay:-7.8s">&amp;&amp;</text><text class="rise" x="1360" y="380" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="32" fill="#79c0ff" style="animation-duration:12s;animation-delay:-7.5s">::</text>
+
+    <!-- avatar -->
+    <g class="bob">
+      <circle cx="135" cy="195" r="84" fill="#161b22" fill-opacity=".85"/>
+      <circle class="spin" cx="135" cy="195" r="84" fill="none" stroke="url(#ring)" stroke-width="5" stroke-linecap="round" stroke-dasharray="190 340"/>
+      <circle cx="135" cy="195" r="70" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+      <text x="135" y="222" text-anchor="middle" font-size="76">👨‍💻</text>
+    </g>
+
+    <!-- greeting -->
+    <g class="fadein">
+      <text x="252" y="112" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="28" fill="#bcc5cf" textLength="300" lengthAdjust="spacingAndGlyphs">Hi there, I'm</text>
+      <text class="wave" x="566" y="114" font-size="34">👋</text>
+      <path d="M291.44921875 156.748046875Q296.248046875 156.748046875 298.7265625 154.638671875Q301.205078125 152.529296875 301.205078125 148.416015625Q301.205078125 144.35546875 298.7265625 142.2197265625Q296.248046875 140.083984375 291.44921875 140.083984375H280.216796875V156.748046875ZM292.134765625 191.18359375Q298.251953125 191.18359375 301.3369140625 188.599609375Q304.421875 186.015625 304.421875 180.794921875Q304.421875 175.6796875 301.36328125 173.1220703125Q298.3046875 170.564453125 292.134765625 170.564453125H280.216796875V191.18359375ZM311.013671875 162.865234375Q317.552734375 164.763671875 321.138671875 169.87890625Q324.724609375 174.994140625 324.724609375 182.4296875Q324.724609375 193.8203125 317.025390625 199.41015625Q309.326171875 205.0 293.611328125 205.0H259.9140625V126.267578125H290.39453125Q306.794921875 126.267578125 314.1513671875 131.224609375Q321.5078125 136.181640625 321.5078125 147.09765625Q321.5078125 152.845703125 318.818359375 156.8798828125Q316.12890625 160.9140625 311.013671875 162.865234375ZM369.361328125 178.421875Q363.455078125 178.421875 360.4755859375 180.42578125Q357.49609375 182.4296875 357.49609375 186.33203125Q357.49609375 189.91796875 359.8955078125 191.9482421875Q362.294921875 193.978515625 366.56640625 193.978515625Q371.892578125 193.978515625 375.53125 190.1552734375Q379.169921875 186.33203125 379.169921875 180.583984375V178.421875ZM398.20703125 171.302734375V205.0H379.169921875V196.24609375Q375.373046875 201.625 370.626953125 204.0771484375Q365.880859375 206.529296875 359.078125 206.529296875Q349.90234375 206.529296875 344.1806640625 201.1767578125Q338.458984375 195.82421875 338.458984375 187.28125Q338.458984375 176.892578125 345.6044921875 172.041015625Q352.75 167.189453125 368.04296875 167.189453125H379.169921875V165.712890625Q379.169921875 161.23046875 375.63671875 159.1474609375Q372.103515625 157.064453125 364.615234375 157.064453125Q358.55078125 157.064453125 353.330078125 158.27734375Q348.109375 159.490234375 343.626953125 161.916015625V147.51953125Q349.69140625 146.04296875 355.80859375 145.2783203125Q361.92578125 144.513671875 368.04296875 144.513671875Q384.021484375 144.513671875 391.1142578125 150.8154296875Q398.20703125 157.1171875 398.20703125 171.302734375ZM463.41015625 147.783203125V162.126953125Q457.345703125 159.595703125 451.703125 158.330078125Q446.060546875 157.064453125 441.05078125 157.064453125Q435.671875 157.064453125 433.0615234375 158.4091796875Q430.451171875 159.75390625 430.451171875 162.548828125Q430.451171875 164.81640625 432.4287109375 166.029296875Q434.40625 167.2421875 439.521484375 167.822265625L442.84375 168.296875Q457.345703125 170.142578125 462.35546875 174.361328125Q467.365234375 178.580078125 467.365234375 187.59765625Q467.365234375 197.037109375 460.404296875 201.783203125Q453.443359375 206.529296875 439.626953125 206.529296875Q433.7734375 206.529296875 427.5244140625 205.6064453125Q421.275390625 204.68359375 414.68359375 202.837890625V188.494140625Q420.326171875 191.236328125 426.2587890625 192.607421875Q432.19140625 193.978515625 438.30859375 193.978515625Q443.845703125 193.978515625 446.640625 192.44921875Q449.435546875 190.919921875 449.435546875 187.9140625Q449.435546875 185.3828125 447.5107421875 184.1435546875Q445.5859375 182.904296875 439.837890625 182.21875L436.515625 181.796875Q423.912109375 180.21484375 418.849609375 175.943359375Q413.787109375 171.671875 413.787109375 162.970703125Q413.787109375 153.583984375 420.220703125 149.048828125Q426.654296875 144.513671875 439.943359375 144.513671875Q445.1640625 144.513671875 450.912109375 145.3046875Q456.66015625 146.095703125 463.41015625 147.783203125ZM529.193359375 147.783203125V162.126953125Q523.12890625 159.595703125 517.486328125 158.330078125Q511.84375 157.064453125 506.833984375 157.064453125Q501.455078125 157.064453125 498.8447265625 158.4091796875Q496.234375 159.75390625 496.234375 162.548828125Q496.234375 164.81640625 498.2119140625 166.029296875Q500.189453125 167.2421875 505.3046875 167.822265625L508.626953125 168.296875Q523.12890625 170.142578125 528.138671875 174.361328125Q533.1484375 178.580078125 533.1484375 187.59765625Q533.1484375 197.037109375 526.1875 201.783203125Q519.2265625 206.529296875 505.41015625 206.529296875Q499.556640625 206.529296875 493.3076171875 205.6064453125Q487.05859375 204.68359375 480.466796875 202.837890625V188.494140625Q486.109375 191.236328125 492.0419921875 192.607421875Q497.974609375 193.978515625 504.091796875 193.978515625Q509.62890625 193.978515625 512.423828125 192.44921875Q515.21875 190.919921875 515.21875 187.9140625Q515.21875 185.3828125 513.2939453125 184.1435546875Q511.369140625 182.904296875 505.62109375 182.21875L502.298828125 181.796875Q489.6953125 180.21484375 484.6328125 175.943359375Q479.5703125 171.671875 479.5703125 162.970703125Q479.5703125 153.583984375 486.00390625 149.048828125Q492.4375 144.513671875 505.7265625 144.513671875Q510.947265625 144.513671875 516.6953125 145.3046875Q522.443359375 146.095703125 529.193359375 147.783203125ZM607.791015625 175.310546875V180.689453125H563.65234375Q564.337890625 187.333984375 568.451171875 190.65625Q572.564453125 193.978515625 579.947265625 193.978515625Q585.90625 193.978515625 592.1552734375 192.2119140625Q598.404296875 190.4453125 604.99609375 186.859375V201.4140625Q598.298828125 203.9453125 591.6015625 205.2373046875Q584.904296875 206.529296875 578.20703125 206.529296875Q562.17578125 206.529296875 553.2900390625 198.3818359375Q544.404296875 190.234375 544.404296875 175.521484375Q544.404296875 161.072265625 553.1318359375 152.79296875Q561.859375 144.513671875 577.15234375 144.513671875Q591.07421875 144.513671875 599.4326171875 152.8984375Q607.791015625 161.283203125 607.791015625 175.310546875ZM588.384765625 169.03515625Q588.384765625 163.65625 585.2470703125 160.3603515625Q582.109375 157.064453125 577.046875 157.064453125Q571.5625 157.064453125 568.134765625 160.1494140625Q564.70703125 163.234375 563.86328125 169.03515625ZM678.3203125 155.74609375Q681.90625 150.26171875 686.8369140625 147.3876953125Q691.767578125 144.513671875 697.673828125 144.513671875Q707.8515625 144.513671875 713.177734375 150.7890625Q718.50390625 157.064453125 718.50390625 169.03515625V205.0H699.51953125V174.203125Q699.572265625 173.517578125 699.5986328125 172.779296875Q699.625 172.041015625 699.625 170.669921875Q699.625 164.39453125 697.779296875 161.5732421875Q695.93359375 158.751953125 691.8203125 158.751953125Q686.44140625 158.751953125 683.5146484375 163.181640625Q680.587890625 167.611328125 680.482421875 175.99609375V205.0H661.498046875V174.203125Q661.498046875 164.39453125 659.810546875 161.5732421875Q658.123046875 158.751953125 653.798828125 158.751953125Q648.3671875 158.751953125 645.4140625 163.2080078125Q642.4609375 167.6640625 642.4609375 175.943359375V205.0H623.4765625V145.9375H642.4609375V154.5859375Q645.94140625 149.576171875 650.4501953125 147.044921875Q654.958984375 144.513671875 660.390625 144.513671875Q666.5078125 144.513671875 671.201171875 147.466796875Q675.89453125 150.419921875 678.3203125 155.74609375ZM825.337890625 190.65625H793.591796875L788.58203125 205.0H768.173828125L797.3359375 126.267578125H821.541015625L850.703125 205.0H830.294921875ZM798.654296875 176.048828125H820.22265625L809.46484375 144.724609375ZM916.5390625 155.74609375Q920.125 150.26171875 925.0556640625 147.3876953125Q929.986328125 144.513671875 935.892578125 144.513671875Q946.0703125 144.513671875 951.396484375 150.7890625Q956.72265625 157.064453125 956.72265625 169.03515625V205.0H937.73828125V174.203125Q937.791015625 173.517578125 937.8173828125 172.779296875Q937.84375 172.041015625 937.84375 170.669921875Q937.84375 164.39453125 935.998046875 161.5732421875Q934.15234375 158.751953125 930.0390625 158.751953125Q924.66015625 158.751953125 921.7333984375 163.181640625Q918.806640625 167.611328125 918.701171875 175.99609375V205.0H899.716796875V174.203125Q899.716796875 164.39453125 898.029296875 161.5732421875Q896.341796875 158.751953125 892.017578125 158.751953125Q886.5859375 158.751953125 883.6328125 163.2080078125Q880.6796875 167.6640625 880.6796875 175.943359375V205.0H861.6953125V145.9375H880.6796875V154.5859375Q884.16015625 149.576171875 888.6689453125 147.044921875Q893.177734375 144.513671875 898.609375 144.513671875Q904.7265625 144.513671875 909.419921875 147.466796875Q914.11328125 150.419921875 916.5390625 155.74609375ZM1030.57421875 155.74609375Q1034.16015625 150.26171875 1039.0908203125 147.3876953125Q1044.021484375 144.513671875 1049.927734375 144.513671875Q1060.10546875 144.513671875 1065.431640625 150.7890625Q1070.7578125 157.064453125 1070.7578125 169.03515625V205.0H1051.7734375V174.203125Q1051.826171875 173.517578125 1051.8525390625 172.779296875Q1051.87890625 172.041015625 1051.87890625 170.669921875Q1051.87890625 164.39453125 1050.033203125 161.5732421875Q1048.1875 158.751953125 1044.07421875 158.751953125Q1038.6953125 158.751953125 1035.7685546875 163.181640625Q1032.841796875 167.611328125 1032.736328125 175.99609375V205.0H1013.751953125V174.203125Q1013.751953125 164.39453125 1012.064453125 161.5732421875Q1010.376953125 158.751953125 1006.052734375 158.751953125Q1000.62109375 158.751953125 997.66796875 163.2080078125Q994.71484375 167.6640625 994.71484375 175.943359375V205.0H975.73046875V145.9375H994.71484375V154.5859375Q998.1953125 149.576171875 1002.7041015625 147.044921875Q1007.212890625 144.513671875 1012.64453125 144.513671875Q1018.76171875 144.513671875 1023.455078125 147.466796875Q1028.1484375 150.419921875 1030.57421875 155.74609375ZM1116.34375 178.421875Q1110.4375 178.421875 1107.4580078125 180.42578125Q1104.478515625 182.4296875 1104.478515625 186.33203125Q1104.478515625 189.91796875 1106.8779296875 191.9482421875Q1109.27734375 193.978515625 1113.548828125 193.978515625Q1118.875 193.978515625 1122.513671875 190.1552734375Q1126.15234375 186.33203125 1126.15234375 180.583984375V178.421875ZM1145.189453125 171.302734375V205.0H1126.15234375V196.24609375Q1122.35546875 201.625 1117.609375 204.0771484375Q1112.86328125 206.529296875 1106.060546875 206.529296875Q1096.884765625 206.529296875 1091.1630859375 201.1767578125Q1085.44140625 195.82421875 1085.44140625 187.28125Q1085.44140625 176.892578125 1092.5869140625 172.041015625Q1099.732421875 167.189453125 1115.025390625 167.189453125H1126.15234375V165.712890625Q1126.15234375 161.23046875 1122.619140625 159.1474609375Q1119.0859375 157.064453125 1111.59765625 157.064453125Q1105.533203125 157.064453125 1100.3125 158.27734375Q1095.091796875 159.490234375 1090.609375 161.916015625V147.51953125Q1096.673828125 146.04296875 1102.791015625 145.2783203125Q1108.908203125 144.513671875 1115.025390625 144.513671875Q1131.00390625 144.513671875 1138.0966796875 150.8154296875Q1145.189453125 157.1171875 1145.189453125 171.302734375ZM1208.125 162.021484375Q1205.646484375 160.861328125 1203.1943359375 160.3076171875Q1200.7421875 159.75390625 1198.263671875 159.75390625Q1190.986328125 159.75390625 1187.0576171875 164.4208984375Q1183.12890625 169.087890625 1183.12890625 177.7890625V205.0H1164.25V145.9375H1183.12890625V155.640625Q1186.767578125 149.83984375 1191.4873046875 147.1767578125Q1196.20703125 144.513671875 1202.798828125 144.513671875Q1203.748046875 144.513671875 1204.85546875 144.5927734375Q1205.962890625 144.671875 1208.072265625 144.935546875Z" fill="url(#nameGrad)"/>
+    </g>
+
+    <!-- typewriter subtitle -->
+    <text x="250" y="262" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="32" font-weight="700" fill="#79c0ff">❯</text>
+    
+  <text x="292" y="262" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="32" fill="#e6edf3" clip-path="url(#clip0)"
+        textLength="364.8" lengthAdjust="spacingAndGlyphs">Full-Stack Engineer</text>
+  <g class="blink"><rect y="232" width="3" height="38" rx="1.5" fill="#79c0ff">
+    <animate attributeName="x" dur="14.0s" repeatCount="indefinite" values="292;656.8;656.8;292;292" keyTimes="0.0000;0.0786;0.2143;0.2250;1.0000"/>
+    <animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" calcMode="discrete" values="1;1;0;0" keyTimes="0.0000;0.2143;0.2250;1.0000"/>
+  </rect></g>
+  <text x="292" y="262" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="32" fill="#e6edf3" clip-path="url(#clip1)"
+        textLength="710.4" lengthAdjust="spacingAndGlyphs">API-Driven Design · Auth · Deployment</text>
+  <g class="blink"><rect y="232" width="3" height="38" rx="1.5" fill="#79c0ff">
+    <animate attributeName="x" dur="14.0s" repeatCount="indefinite" values="292;292;1002.4;1002.4;292;292" keyTimes="0.0000;0.2500;0.3286;0.4643;0.4750;1.0000"/>
+    <animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;1;0;0" keyTimes="0.0000;0.2500;0.4643;0.4750;1.0000"/>
+  </rect></g>
+  <text x="292" y="262" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="32" fill="#e6edf3" clip-path="url(#clip2)"
+        textLength="672.0" lengthAdjust="spacingAndGlyphs">Problem Solver &amp; Experience Builder</text>
+  <g class="blink"><rect y="232" width="3" height="38" rx="1.5" fill="#79c0ff">
+    <animate attributeName="x" dur="14.0s" repeatCount="indefinite" values="292;292;964.0;964.0;292;292" keyTimes="0.0000;0.5000;0.5786;0.7143;0.7250;1.0000"/>
+    <animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;1;0;0" keyTimes="0.0000;0.5000;0.7143;0.7250;1.0000"/>
+  </rect></g>
+  <text x="292" y="262" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="32" fill="#e6edf3" clip-path="url(#clip3)"
+        textLength="403.2" lengthAdjust="spacingAndGlyphs">Open to Collaboration</text>
+  <g class="blink"><rect y="232" width="3" height="38" rx="1.5" fill="#79c0ff">
+    <animate attributeName="x" dur="14.0s" repeatCount="indefinite" values="292;292;695.2;695.2;292;292" keyTimes="0.0000;0.7500;0.8286;0.9643;0.9750;1.0000"/>
+    <animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;1;0;0" keyTimes="0.0000;0.7500;0.9643;0.9750;1.0000"/>
+  </rect></g>
+
+    
+  <g class="pill" style="animation-delay:0.60s">
+    <rect x="250" y="296" width="206" height="40" rx="20" fill="#79c0ff" fill-opacity="0.12" stroke="#79c0ff" stroke-opacity="0.7"/>
+    <text x="353.0" y="322" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="600" fill="#f0f6fc">🧩 API Design</text>
+  </g>
+  <g class="pill" style="animation-delay:0.85s">
+    <rect x="472" y="296" width="121" height="40" rx="20" fill="#8957e5" fill-opacity="0.12" stroke="#8957e5" stroke-opacity="0.7"/>
+    <text x="532.5" y="322" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="600" fill="#f0f6fc">🔐 Auth</text>
+  </g>
+  <g class="pill" style="animation-delay:1.10s">
+    <rect x="609" y="296" width="263" height="40" rx="20" fill="#238636" fill-opacity="0.12" stroke="#238636" stroke-opacity="0.7"/>
+    <text x="740.5" y="322" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="600" fill="#f0f6fc">🤖 AI Integration</text>
+  </g>
+  <g class="pill" style="animation-delay:1.35s">
+    <rect x="888" y="296" width="206" height="40" rx="20" fill="#e3b341" fill-opacity="0.12" stroke="#e3b341" stroke-opacity="0.7"/>
+    <text x="991.0" y="322" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="600" fill="#f0f6fc">🚀 Deployment</text>
+  </g>
+
+    <!-- waves -->
+    <g class="wv3"><path d="M0,352 Q180.0,334 360,352 T720,352 T1080,352 T1440,352 T1800,352 T2160,352 T2520,352 T2880,352 V400 H0 Z" fill="url(#w3)"/></g>
+    <g class="wv2"><path d="M0,364 Q180.0,342 360,364 T720,364 T1080,364 T1440,364 T1800,364 T2160,364 T2520,364 T2880,364 V400 H0 Z" fill="url(#w2)"/></g>
+    <g class="wv1"><path d="M0,376 Q180.0,350 360,376 T720,376 T1080,376 T1440,376 T1800,376 T2160,376 T2520,376 T2880,376 V400 H0 Z" fill="url(#w1)"/></g>
+  </g>
+  <rect x=".5" y=".5" width="1439" height="399" rx="28" fill="none" stroke="#ffffff" stroke-opacity=".10"/>
+</svg>
