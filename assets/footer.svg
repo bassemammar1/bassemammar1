@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 260" width="1440" height="260" role="img" aria-label="Let's build something great together">
   <title>Let's build something great together</title>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a1633"/><stop offset=".5" stop-color="#101a30"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
-    <linearGradient id="t" gradientUnits="userSpaceOnUse" x1="380" x2="1060" y1="0" y2="0"><stop offset="0" stop-color="#79c0ff"/><stop offset=".5" stop-color="#bc8cff"/><stop offset="1" stop-color="#39c5cf"/></linearGradient>
-    <linearGradient id="w1" x1="0" x2="1"><stop offset="0" stop-color="#79c0ff" stop-opacity=".20"/><stop offset="1" stop-color="#8957e5" stop-opacity=".20"/></linearGradient>
-    <linearGradient id="w2" x1="0" x2="1"><stop offset="0" stop-color="#8957e5" stop-opacity=".30"/><stop offset="1" stop-color="#39c5cf" stop-opacity=".30"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14213a"/><stop offset=".5" stop-color="#101a30"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+    <linearGradient id="t" gradientUnits="userSpaceOnUse" x1="380" x2="1060" y1="0" y2="0"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#a5d6ff"/><stop offset="1" stop-color="#79c0ff"/></linearGradient>
+    <linearGradient id="w1" x1="0" x2="1"><stop offset="0" stop-color="#58a6ff" stop-opacity=".20"/><stop offset="1" stop-color="#1f6feb" stop-opacity=".20"/></linearGradient>
+    <linearGradient id="w2" x1="0" x2="1"><stop offset="0" stop-color="#1f6feb" stop-opacity=".30"/><stop offset="1" stop-color="#a5d6ff" stop-opacity=".30"/></linearGradient>
     <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
     <clipPath id="card"><rect width="1440" height="260" rx="28"/></clipPath>
   </defs>
@@ -20,8 +20,8 @@
   </style>
   <g clip-path="url(#card)">
     <rect width="1440" height="260" fill="url(#bg)"/>
-    <circle class="blob" cx="520" cy="110" r="150" fill="#79c0ff" fill-opacity=".28" filter="url(#blur)"/>
-    <circle class="blob" cx="980" cy="120" r="160" fill="#39c5cf" fill-opacity=".24" filter="url(#blur)" style="animation-delay:-6s"/>
+    <circle class="blob" cx="520" cy="110" r="150" fill="#58a6ff" fill-opacity=".16" filter="url(#blur)"/>
+    <circle class="blob" cx="980" cy="120" r="160" fill="#1f6feb" fill-opacity=".14" filter="url(#blur)" style="animation-delay:-6s"/>
     <text class="star" x="60" y="36" font-size="14" fill="#fff" style="animation-delay:-0.00s">✦</text><text class="star" x="180" y="77" font-size="19" fill="#fff" style="animation-delay:-0.37s">✦</text><text class="star" x="300" y="118" font-size="24" fill="#fff" style="animation-delay:-0.74s">✦</text><text class="star" x="420" y="39" font-size="14" fill="#fff" style="animation-delay:-1.11s">✦</text><text class="star" x="448" y="80" font-size="19" fill="#fff" style="animation-delay:-1.48s">✦</text><text class="star" x="568" y="121" font-size="24" fill="#fff" style="animation-delay:-1.85s">✦</text><text class="star" x="688" y="42" font-size="14" fill="#fff" style="animation-delay:-2.22s">✦</text><text class="star" x="808" y="83" font-size="19" fill="#fff" style="animation-delay:-2.59s">✦</text><text class="star" x="836" y="124" font-size="24" fill="#fff" style="animation-delay:-2.96s">✦</text><text class="star" x="956" y="45" font-size="14" fill="#fff" style="animation-delay:-0.33s">✦</text><text class="star" x="1076" y="86" font-size="19" fill="#fff" style="animation-delay:-0.70s">✦</text><text class="star" x="1196" y="127" font-size="24" fill="#fff" style="animation-delay:-1.07s">✦</text><text class="star" x="1224" y="48" font-size="14" fill="#fff" style="animation-delay:-1.44s">✦</text><text class="star" x="1344" y="89" font-size="19" fill="#fff" style="animation-delay:-1.81s">✦</text><text class="star" x="1464" y="130" font-size="24" fill="#fff" style="animation-delay:-2.18s">✦</text>
     <text x="720.0" y="112" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="48" font-weight="800" fill="url(#t)">Let's build something great together</text>
     <text x="720.0" y="158" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="21" fill="#bcc5cf" textLength="620" lengthAdjust="spacingAndGlyphs">clean code · reliable systems · shared knowledge</text>

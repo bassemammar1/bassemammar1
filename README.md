@@ -6,7 +6,7 @@
 
 <a href="mailto:bassemammar.contact@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_touch-1f6feb?style=for-the-badge&labelColor=161b22" alt="Email"></a>
 <a href="https://www.linkedin.com/in/bassem-ammar111"><img src="https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&labelColor=161b22" alt="LinkedIn"></a>
-<a href="https://github.com/bassemammar1"><img src="https://img.shields.io/badge/GitHub-bassemammar1-6e40c9?style=for-the-badge&labelColor=161b22" alt="GitHub"></a>
+<a href="https://github.com/bassemammar1"><img src="https://img.shields.io/badge/GitHub-bassemammar1-30363d?style=for-the-badge&labelColor=161b22" alt="GitHub"></a>
 
 <br>
 
